@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.401">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldNavigateToRegisterPageSuccessfully" time="0.401" classname="com.tricentis.demowebshop.testsuite.RegisterPageTest" />
+      
+</testsuite>

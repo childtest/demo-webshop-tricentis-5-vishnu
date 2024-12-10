@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.tricentis.demowebshop.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name="Smoke test">
+        <classes>
+            <class name="com.tricentis.demowebshop.testsuite.LoginPageTest"/>
+            <class name="com.tricentis.demowebshop.testsuite.ComputerPageTest"/>
+            <class name="com.tricentis.demowebshop.testsuite.RegisterPageTest"/>
+        </classes>
+    </test>
+</suite>
